@@ -1,8 +1,11 @@
-# Activity Timer
-Dynamics 365 and Activity Timer 
-This solution provide solution to capture time spent on each activity.
->User open any activity and when it close that activity time is caputred and saved in new entity.
->It will show time when user open that activity.
->It will show time when last time activity is opened.
->It will show time how much time spent on opened activity.
-You can enable on other activities or entity by adding web resource "sav_/WS/ActivityTimer.html".
+# Drag & Drop
+Dynamics 365 and Drag and Drop notes feature. 
+This solution provide solution to save attachment in notes using drag and drop feature.
+>You can add this this webresource(sav_/WS/sample.html) in any CRM form.
+>After adding this web resource user just drag and drop any attachment in this area.
+>It will store droped document as attachment in note to that entity.
+>After creation of notes notification will shown to user as alert.
+>When user uplaod any image file it will show image as perview also.
+
+I have used dropZone open source js to implement this feature.
+http://www.dropzonejs.com/
